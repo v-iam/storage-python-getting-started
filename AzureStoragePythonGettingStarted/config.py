@@ -13,8 +13,6 @@
 # limitations under the License.
 #--------------------------------------------------------------------------
 
-
-STORAGE_ACCOUNT_NAME = 'dineshmstorage'
-STORAGE_ACCOUNT_KEY = 'MNScrDRbYYUjTpW3eCwUkmm3em0+X3jKrh8QvSCsF3HzfOXHbp4T5rbhbO+upXCPvj3OpJxUY236uzzZB7zQ9w=='
-SAS = ''
-IS_EMULATED = False
+STORAGE_ACCOUNT_NAME = ''
+STORAGE_ACCOUNT_KEY = ''
+IS_EMULATED = True
