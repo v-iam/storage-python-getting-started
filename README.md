@@ -18,17 +18,20 @@ To run the sample using the Storage Emulator:
 To run the sample using the Storage Service
 1. Open the config.py file and comment out the connection string for the emulator (UseDevelopmentStorage=True) and uncomment the connection string for the storage service (AccountName=[]...).
 2. Create a Storage Account through the Azure Portal and provide your [AccountName] and [AccountKey] in the config.properties file. See https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/ for more information
-3.Set breakpoints and run the project. 
+3. Set breakpoints and run the project. 
 
 ## Deploy this sample 
 
 Either fork the sample to a local folder or download the zip file from https://github.com/Azure-Samples/storage-python-getting-started/
 
 To get the source code of the SDK via git, type:
-git clone git://github.com/Azure-Samples/storage-python-getting-started.git
-cd .\storage-python-getting-started
 
-##Minimum Requirements
+```
+git clone git://github.com/Azure-Samples/storage-python-getting-started.git
+cd storage-python-getting-started
+```
+
+## Minimum Requirements
 Python 2.7, 3.3, or 3.4.
 To install Python, please go to https://www.python.org/downloads/
 
